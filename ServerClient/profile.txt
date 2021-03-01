@@ -1,0 +1,3 @@
+xztzpbst manager
+newuser manager
+newuser1 guest
