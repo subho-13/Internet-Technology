@@ -38,7 +38,7 @@ public class Client {
         boolean stop = false;
         while (!stop) {
             count++;
-            System.out.print("[" + count + "]");
+            System.out.print("[" + java.time.LocalTime.now() + "]");
 
             inputString = scanner.nextLine();
             out.println(inputString);
