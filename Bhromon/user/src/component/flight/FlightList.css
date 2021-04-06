@@ -1,0 +1,22 @@
+.flightlist-container {
+    overflow: scroll;
+    scrollbar-width: none;
+    background-color: #fdfffc;
+}
+
+.flight-info {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 2.5fr 2.5fr 1fr 1fr 1fr;
+    background-color: #fdfffc;
+}
+
+.flight-info-component {
+    background-color: #011627;
+    color: #fdfffc;
+    border-left: 0.2vw solid #fdfffc;
+    border-right: 0.2vw solid #fdfffc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 1.2vw "Montserrat";
+}

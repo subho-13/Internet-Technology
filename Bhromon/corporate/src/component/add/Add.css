@@ -1,0 +1,72 @@
+.add-container {
+    height: 100vh;
+    width: 100vw;
+    margin: 0%;
+    scrollbar-width: none;
+
+    display: grid;
+    grid-template-rows: 10vh 90vh;
+}
+
+.add-header {
+    grid-row: 1 / span 1;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) 2fr;
+    background-color: #ebebeb;
+}
+
+.add-addbutton {
+    grid-column: 1 / span 1;
+    align-self: center;
+    justify-self: center;
+    padding: 1.2vw;
+
+    font: bold 1.5vw "Montserrat";
+    background-color: #423b0b;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.5vw;
+}
+
+.add-addbutton:active {
+    background-color: #000000;
+}
+
+.add-savebutton {
+    grid-column: 2 / span 1;
+    align-self: center;
+    justify-self: center;
+    padding: 1.2vw;
+
+    font: bold 1.5vw "Montserrat";
+    background-color: #423b0b;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.5vw;
+}
+
+.add-savebutton:active {
+    background-color: #000000;
+}
+
+.add-corporateName {
+    grid-column: 5 / span 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font: 2.5vw "EB Garamond";
+    background-color: #004570;
+    color: #ffffff;
+    border: none;
+}
+
+.add-flightbar {
+    height: 100%;
+    grid-row: 2 / span 1;
+    overflow: scroll;
+    scrollbar-width: none;
+    background-color: #f5f5f5;
+}

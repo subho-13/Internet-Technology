@@ -1,0 +1,48 @@
+.chatlist {
+    grid-area: 1 / 1 / span 2 / span 1;
+    background-color: #c40a0a;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.chatlist-item {
+    border-style: none;
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    padding-bottom: 1rem;
+}
+
+.chatlist-friend {
+    border-style: none;
+    background-color: #2e3738;
+    font: 300 1.5rem "Open Sans", sans-serif;
+    color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0.2rem 0rem 0.2rem 0rem;
+}
+
+.chatlist-group {
+    border-style: none;
+    background-color: #373f5c;
+    font: 300 1.5rem "Open Sans", sans-serif;
+
+    color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0.2rem 0rem 0.2rem 0rem;
+}
+
+.chatlist-delete {
+    border-style: none;
+    background-color: #610505;
+    font: 300 1.5rem "Open Sans", sans-serif;
+    color: #ffffff;
+    text-align: center;
+}

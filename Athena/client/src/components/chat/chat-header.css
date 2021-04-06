@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.header-section {
+    border-radius: 0.3rem;
+
+    padding: 0.2rem;
+    background-color: #f5f5f5;
+    display: grid;
+
+    grid-template-columns: 7fr repeat(4, 1fr);
+    gap: 0.2rem;
+}
+
+.header-form {
+    grid-column: 1;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    gap: 0.2rem;
+}
+
+.header-user {
+    height: 70%;
+    width: 70%;
+
+    border-radius: 0.3rem;
+    border-style: none;
+
+    background-color: #ffeed6;
+
+    align-self: center;
+    justify-self: right;
+
+    font: 200 1.5rem "Open Sans", sans-serif;
+    color: #080808;
+    text-align: center;
+}
+
+.header-join {
+    height: 70%;
+    width: 50%;
+
+    border-radius: 0.3rem;
+    border-style: none;
+
+    padding: 0.5rem;
+    background-color: #fbe888;
+
+    justify-self: center;
+    align-self: center;
+
+    font: 300 1.5rem "Open Sans", sans-serif;
+    color: #080808;
+}
+
+.header-friend {
+    height: 70%;
+    width: 70%;
+
+    border-radius: 0.3rem;
+    border-style: none;
+
+    justify-self: center;
+    align-self: center;
+
+    grid-column: 2;
+
+    background-color: #22333b;
+
+    font: 300 1.5rem "Open Sans", sans-serif;
+
+    color: #fcfcfc;
+}
+
+.header-group {
+    height: 70%;
+    width: 70%;
+
+    border-radius: 0.3rem;
+    border-style: none;
+
+    justify-self: center;
+    align-self: center;
+
+    grid-column: 3;
+
+    background-color: #22333b;
+
+    font: 300 1.5rem "Open Sans", sans-serif;
+
+    color: #fcfcfc;
+}
+
+.header-logout {
+    height: 70%;
+    width: 70%;
+
+    border-radius: 0.3rem;
+    border-style: none;
+
+    justify-self: center;
+    align-self: center;
+
+    grid-column: 4;
+
+    background-color: #821008;
+
+    font: 300 1.5rem "Open Sans", sans-serif;
+    color: #ffffff;
+}
+
+.header-username {
+    height: 70%;
+    width: 70%;
+
+    justify-self: center;
+    align-self: center;
+
+    grid-column: 5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #001427;
+
+    font: 300 1.5rem "Open Sans", sans-serif;
+    color: #fcfcfc;
+}

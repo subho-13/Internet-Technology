@@ -1,0 +1,68 @@
+.login-form {
+    grid-row: 2 / span 1;
+    border-radius: 1vw;
+    align-self: center;
+    justify-self: center;
+}
+
+.login-form-body {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background: #bec2b0;
+
+    border-radius: 0.6vw;
+    border-style: none;
+}
+
+.login-form-legend {
+    grid-row: 1 / span 1;
+    font: 3vw "Montserrat";
+    margin: 1vw;
+
+    border-radius: 0.5vw;
+    border-style: none;
+
+    background: #801428;
+    color: #ffffff;
+
+    padding: 0.3vw;
+}
+
+.login-form-userid {
+    grid-row: 2 / span 1;
+    font: 2vw "Montserrat";
+    margin: 0.5vw;
+    border-radius: 0.6vw;
+    border-style: none;
+    padding: 0.5vw;
+    background-color: #f4f5f6;
+}
+
+.login-form-password {
+    grid-row: 3 / span 1;
+    font: 2vw "Montserrat";
+    margin: 0.5vw;
+    border-radius: 0.6vw;
+    border-style: none;
+    padding: 0.5vw;
+    background-color: #f4f5f6;
+}
+
+.login-form-button {
+    grid-row: 4 / span 1;
+    font: 2.3vw "Montserrat";
+    margin-top: 1.5vw;
+    align-self: center;
+    justify-self: center;
+
+    border-radius: 0.6vw;
+    border-style: none;
+
+    padding: 0.6vw;
+    background-color: #22445d;
+    color: #ffffff;
+}
+
+.login-form-button:active {
+    background-color: #0d2231;
+}

@@ -1,0 +1,30 @@
+.filterbar-container {
+    border: solid 0.5vw #f7c548;
+    padding: 0.8vw;
+    grid-row: 1 / span 1;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    background-color: #eeebd3;
+    gap: 1vh;
+}
+
+.filterbar-component {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.filterbar-component-name {
+    align-self: center;
+    justify-self: center;
+    font: bold 1.3vw "Montserrat";
+}
+
+.filterbar-search-container {
+    display: grid;
+}
+
+.filterbar-search {
+    font: bold 1.3vw "Montserrat";
+    justify-self: center;
+    align-self: center;
+}

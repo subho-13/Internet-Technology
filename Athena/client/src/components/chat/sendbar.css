@@ -1,0 +1,95 @@
+.sendbar {
+    grid-area: 2 / 2 / span 1 / span 1;
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+}
+
+.sendbar-option-button {
+    width: 70%;
+    height: 50%;
+
+    border-radius: 0.4rem 0rem 0rem 0.4rem;
+    border-style: none;
+
+    align-self: center;
+    justify-self: right;
+
+    margin: 0.3rem;
+
+    background-color: #511730;
+
+    font: 300 1.5rem "Open Sans", sans-serif;
+    color: #ffffff;
+}
+
+.sendbar-form {
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+}
+
+.sendbar-text {
+    border: none;
+    grid-column: 1 / span 1;
+    align-self: center;
+    padding: 0.2rem;
+    background-color: #2b303a;
+
+    font: 300 1.3rem "Open Sans", sans-serif;
+    color: #ffffff;
+    white-space: pre;
+
+    scrollbar-width: none;
+    resize: none;
+}
+
+.sendbar-image {
+    height: 40%;
+    width: 30%;
+
+    border-radius: 0.3rem;
+
+    border: none;
+    grid-column: 1 / span 1;
+
+    padding: 0.2rem;
+    background-color: #2b303a;
+
+    justify-self: center;
+    align-self: center;
+
+    font: 300 1.5rem "Open Sans", sans-serif;
+    color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sendbar-image > input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.sendbar-send-button {
+    grid-column: 2 / span 1;
+
+    width: 50%;
+    height: 50%;
+
+    margin: 0.3rem;
+
+    border-radius: 0rem 0.4rem 0.4rem 0rem;
+    border-style: none;
+
+    align-self: center;
+    justify-self: left;
+
+    background-color: #124559;
+
+    font: 300 1.5rem "Open Sans", sans-serif;
+    color: #ffffff;
+}

@@ -1,0 +1,109 @@
+.message-self {
+    grid-column: 2 / span 2;
+
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    justify-self: right;
+
+    border-style: none;
+}
+
+.message-self > div {
+    background-color: #0d4a42;
+    border-radius: 0.5rem 0rem 0.5rem 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    font: 300 1.5rem "Open Sans", sans-serif;
+    color: #ffffff;
+    text-align: left;
+    word-wrap: break-word;
+    white-space: pre;
+}
+
+.message-self > img {
+    border-radius: 0.5rem 0rem 0.5rem 0rem;
+    border-style: solid;
+    border-color: #0d4a42;
+    border-width: none;
+    max-width: 40vw;
+    max-height: 40vh;
+}
+
+.message-other {
+    grid-column: 1 / span 2;
+
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    justify-self: left;
+
+    border-style: none;
+}
+
+.message-other-group {
+    grid-column: 1 / span 2;
+
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    justify-self: left;
+
+    border-style: none;
+}
+
+#group-message-header {
+    background-color: #251605;
+    border-radius: 0rem 0.5rem 0rem 0rem;
+
+    font: 300 1rem "Open Sans", sans-serif;
+    color: #ffffff;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.message-other-group > div {
+    background-color: #251605;
+    border-radius: 0rem 0rem 0rem 0.5rem;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    font: 300 1.5rem "Open Sans", sans-serif;
+    color: #ffffff;
+    text-align: left;
+    word-wrap: break-word;
+    white-space: pre;
+}
+
+.message-other > div {
+    background-color: #251605;
+    border-radius: 0rem 0.5rem 0rem 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    font: 300 1.5rem "Open Sans", sans-serif;
+    color: #ffffff;
+    text-align: left;
+    word-wrap: break-word;
+    white-space: pre;
+}
+
+.message-other > img {
+    border-radius: 0rem 0.5rem 0rem 0.5rem;
+    border-style: solid;
+    border-color: #251605;
+    border-width: none;
+    max-width: 40vw;
+    max-height: 40vh;
+}
+
+.message-other-group > img {
+    border-radius: 0rem 0rem 0rem 0.5rem;
+    border-style: solid;
+    border-color: #251605;
+    border-width: none;
+    max-width: 40vw;
+    max-height: 40vh;
+}

@@ -1,0 +1,57 @@
+.add-form {
+    grid-row: 2 / span 1;
+    align-self: center;
+    justify-self: center;
+}
+
+.add-form-body {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: #f3dfba;
+    border-radius: 0.6vw;
+    border-style: none;
+}
+
+.add-form-legend {
+    grid-row: 1 / span 1;
+    font: 3.5vw "Montserrat";
+    margin: 1vw;
+
+    border-radius: 0.5vw;
+    border-style: none;
+
+    background-color: #3d405b;
+    color: #ffffff;
+
+    padding: 0.3vw;
+}
+
+.add-form-corporate {
+    grid-row: 2 / span 1;
+    font: 2.5vw "Montserrat";
+    margin: 0.5vw;
+    border-radius: 0.6vw;
+    border-style: none;
+    padding: 0.5vw;
+    background-color: #f6fae6;
+    text-align: center;
+}
+
+.add-form-button {
+    grid-row: 3 / span 1;
+    font: 2.8vw "Montserrat";
+    margin-top: 1.5vw;
+    align-self: center;
+    justify-self: center;
+
+    border-radius: 0.6vw;
+    border-style: none;
+
+    padding: 0.6vw;
+    background-color: #354804;
+    color: #ffffff;
+}
+
+.add-form-button:active {
+    background-color: #161d03;
+}

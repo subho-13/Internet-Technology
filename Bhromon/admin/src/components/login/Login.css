@@ -1,0 +1,46 @@
+.login-container {
+    height: 100vh;
+    width: 100vw;
+
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+
+    background-color: #e0dfd5;
+}
+
+.login-info-container {
+    grid-column: 1 / span 1;
+
+    display: grid;
+    grid-template-rows: 2fr 3fr 2fr;
+}
+
+.login-info {
+    align-self: center;
+    justify-self: center;
+    grid-row: 2 / span 1;
+
+    width: 50vw;
+    background-color: #633409;
+
+    margin-left: 5vw;
+    border-radius: 0vh 1vw 1vh 1vw;
+}
+
+.login-info > h1 {
+    margin-left: 2.3vw;
+    font: bold 4.8vw "Xanh Mono";
+    color: #ffffff;
+}
+
+.login-info > h2 {
+    font: 3.8vw "Xanh Mono";
+    margin-left: 2.3vw;
+    color: #ffffff;
+}
+
+.login-form-container {
+    grid-column: 2 / span 1;
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+}

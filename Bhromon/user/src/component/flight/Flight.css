@@ -1,0 +1,43 @@
+.flight-container-normal {
+    background-color: #114a45;
+    font: 1.3vw "Kiwi Maru";
+    color: #ffffff;
+    padding-top: 0.2vh;
+    padding-bottom: 0.2vh;
+    margin-top: 0.1vh;
+    margin-bottom: 0.1vh;
+}
+
+.flight-container-special {
+    background-color: #860e1c;
+    font: 1.3vw "Kiwi Maru";
+    color: #ffffff;
+    padding-top: 0.2vh;
+    padding-bottom: 0.2vh;
+    margin-top: 0.1vh;
+    margin-bottom: 0.1vh;
+    display: grid;
+}
+
+.flight-detail-container {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 2.5fr 2.5fr 1fr 1fr 1fr;
+    overflow: hidden;
+    scrollbar-width: none;
+}
+
+.flight-detail {
+    border-left: 0.2vw solid #fdfffc;
+    border-right: 0.2vw solid #fdfffc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flight-header {
+    text-align: center;
+    border-bottom: 0.2vh solid #ff9f1c;
+    width: 20vw;
+    align-self: center;
+    justify-self: center;
+}

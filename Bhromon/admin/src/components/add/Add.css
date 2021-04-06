@@ -1,0 +1,50 @@
+.add-container {
+    height: 100vh;
+    width: 100vw;
+
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+
+    background-color: #fcf7ee;
+}
+
+.add-info-container {
+    grid-column: 2 / span 1;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.add-info-userid {
+    grid-row: 2 / span 1;
+    width: 30vw;
+    font: 4vw "Xanh Mono";
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    padding: 1vh;
+    text-align: center;
+    background-color: #7d1c34;
+    color: #fff;
+    border-radius: 0.6vw 0.6vw 0vw 0vw;
+    border-style: none;
+}
+
+.add-info-password {
+    grid-row: 3 / span 1;
+    width: 30vw;
+    font: 4vw "Xanh Mono";
+    align-self: center;
+    justify-self: center;
+    padding: 1vh;
+    text-align: center;
+    background-color: #7d1c34;
+    color: #fff;
+    border-radius: 0vw 0vw 0.6vw 0.6vw;
+    border-style: none;
+}
+
+.add-form-container {
+    grid-column: 1 / span 1;
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+}

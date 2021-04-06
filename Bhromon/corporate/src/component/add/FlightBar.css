@@ -1,0 +1,118 @@
+.flightbar-container {
+    width: 100%;
+    display: grid;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+}
+
+.flightbar-is-modified {
+    background-color: #792022;
+}
+
+.flightbar-not-modified {
+    background-color: #27464f;
+}
+
+.flightbar-error {
+    margin-top: 0.2vh;
+    align-self: center;
+    text-align: center;
+    font: 0.9vw "Fira Code";
+    color: #ffffff;
+}
+
+.flightbar-details {
+    margin: 1.1vw;
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 2.5fr 1fr 1fr 1fr 0.25fr;
+    gap: 0.2vw;
+}
+
+.flightbar-details-id {
+    grid-column: 1 / span 1;
+    min-width: 6vw;
+    align-self: center;
+    text-align: center;
+
+    font: 1.1vw "Fira Code";
+    background-color: #fff3b0;
+    color: #080808;
+    border: none;
+    border-radius: 0.5vw;
+}
+
+.flightbar-details-to {
+    grid-column: 2 / span 1;
+    min-width: 10vw;
+    align-self: center;
+    text-align: center;
+
+    font: 1.1vw "Fira Code";
+    background-color: #fff3b0;
+    color: #080808;
+    border: none;
+    border-radius: 0.5vw;
+}
+
+.flightbar-details-from {
+    grid-column: 3 / span 1;
+    min-width: 10vw;
+    align-self: center;
+    text-align: center;
+
+    font: 1.1vw "Fira Code";
+    background-color: #fff3b0;
+    color: #080808;
+    border: none;
+    border-radius: 0.5vw;
+}
+
+.flightbar-details-departure {
+    grid-column: 4 / span 1;
+    min-width: 6vw;
+    align-self: center;
+    text-align: center;
+
+    font: 1.1vw "Fira Code";
+    background-color: #fff3b0;
+    color: #080808;
+    border: none;
+    border-radius: 0.5vw;
+}
+
+.flightbar-details-arrival {
+    grid-column: 5 / span 1;
+    min-width: 6vw;
+    align-self: center;
+    text-align: center;
+
+    font: 1.1vw "Fira Code";
+    background-color: #fff3b0;
+    color: #080808;
+    border: none;
+    border-radius: 0.5vw;
+}
+
+.flightbar-details-cost {
+    grid-column: 6 / span 1;
+    min-width: 6vw;
+    align-self: center;
+    text-align: center;
+
+    font: 1.1vw "Fira Code";
+    background-color: #fff3b0;
+    color: #080808;
+    border: none;
+    border-radius: 0.5vw;
+}
+
+.flightbar-details-special {
+    height: 100%;
+    grid-column: 7 / span 1;
+    align-self: center;
+    background-color: #fff3b0;
+    color: #080808;
+    display: grid;
+    align-items: center;
+    border-radius: 0.5vw;
+}
